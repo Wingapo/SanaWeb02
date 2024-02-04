@@ -1,0 +1,29 @@
+p {
+    color: green;
+    text-align: center;
+}
+.red-text {
+    color: red;
+}
+#pink {
+    color: darkorchid;
+}
+a {
+  color: blue;
+}
+li>a{
+    color: green;
+}
+li>ul>li {
+    list-style-type: none;
+}
+ul>li:last-child>ul>li {
+    list-style-type: square;
+}
+ul>li:last-child>ul>li>a {
+    text-decoration: none;
+
+}
+li>ul>li>a {
+    color: darkorchid;
+}
