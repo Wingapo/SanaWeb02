@@ -22,8 +22,21 @@ ul>li:last-child>ul>li {
 }
 ul>li:last-child>ul>li>a {
     text-decoration: none;
-
 }
 li>ul>li>a {
     color: darkorchid;
+}
+
+h1 + p {
+    font-size: 20px;
+}
+code {
+    font-family: monospace;
+    white-space: pre;
+}
+p code {
+    color: red;
+}
+p + code {
+    color: blueviolet;
 }
