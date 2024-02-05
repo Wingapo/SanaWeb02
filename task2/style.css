@@ -1,0 +1,13 @@
+h1 + p {
+    font-size: 20px;
+}
+code {
+    font-family: monospace;
+    white-space: pre;
+}
+p code {
+    color: red;
+}
+p + code {
+    color: blueviolet;
+}
